@@ -8,10 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 public class HomeController {
-    // @GetMapping("/")
-    // public String home(){
-    //     return "index" ;
-    // }
+
     @GetMapping("/")
     public String home(Model model, @AuthenticationPrincipal OidcUser principal) {
         if(principal != null) {
@@ -19,9 +16,4 @@ public class HomeController {
         }
         return "index";
     }
-
-    // @GetMapping("/secured")
-    // public String secured() {
-    //     return "Secured portion";
-    // }
 }
