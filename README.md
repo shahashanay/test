@@ -31,16 +31,3 @@ docker run -p 8080:8080 <name>
 
 The runtime for your web service Docker
 
-## Sequence Diagram
-
-User -> Browser: Access Application (http://localhost:8080)
-Browser -> Application: Request Home Page
-Application -> Facebook: Initiate OAuth2 Authorization
-Facebook -> Application: Redirect User to Login Page
-Application -> Facebook: Request User Authorization
-Facebook -> User: Display Authorization Prompt
-User -> Facebook: Authorize Application
-Facebook -> Application: Redirect User back to Callback URL
-Application -> Facebook: Exchange Authorization Code for Access Token
-Facebook -> Application: Return User Profile Information
-Application -> Browser: Render Home Page with User Profile
