@@ -7,7 +7,8 @@ This is a simple web application demonstrating Facebook login integration using 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shahashanay/test5.git
+   git clone https://github.com/shahashanay/test.git
+   cd test5
    ```
 
 ## Prerequisites
