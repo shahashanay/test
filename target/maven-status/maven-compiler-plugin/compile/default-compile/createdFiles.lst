@@ -1,0 +1,4 @@
+com/example/auth0demo/config/LogoutHandler.class
+com/example/auth0demo/config/SecurityConfig.class
+com/example/auth0demo/controller/HomeController.class
+com/example/auth0demo/Auth0demoApplication.class
