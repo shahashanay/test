@@ -21,6 +21,15 @@ This is a simple web application demonstrating Facebook login integration using 
 
 mvn spring-boot:run
 
+## run by docker
+
+docker build -t <name> .  
+docker run -p 8080:8080 <name>
+
+## deploy
+
+The runtime for your web service Docker
+
 ## Sequence Diagram
 
 User -> Browser: Access Application (http://localhost:8080)
